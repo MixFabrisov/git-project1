@@ -1,0 +1,90 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex_between {
+    justify-content: space-between;
+}
+
+.header {
+    background: #ffffff;
+    width: 100%;
+    padding-bottom: 1.25vw;
+    padding-top: 1.8vw;
+    
+}
+
+.header__top-menu {
+    background: #ffffff;
+}
+
+.header__logo {
+    width: 13.9vw;
+    margin-left: 2.74vw;
+}
+
+.header__top-menu {
+    box-sizing: border-box;
+}
+
+.header__logo-word {
+    color: #038c8c;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 3.36vmax;
+}
+
+.header__logo-gradient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #038c8c;
+    font-size: 3.36vmax;
+    margin-right: 0.2vw;
+    width: 3.9vmax;
+    height: 4.68vmax;
+    font-family: 'Lato', sans-serif;
+}
+
+.header__navigation {
+    width: 23vw;
+    margin-right: 1.32vw;
+}
+
+.header__link {
+    font-size: 1.5vmax;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #616161;
+}
+
+.header__link:hover {
+    color: #777777;
+}
+
+.header__link::after {
+    content: "|";
+    margin-left: 0.6vw;
+}
+
+.header__link:last-child {
+    
+}
+
+.banner {
+    background: #038c8c;
+}
