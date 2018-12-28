@@ -32,7 +32,7 @@
 }
 
 .header__logo {
-    width: 13.9vw;
+    width: 14.2vw;
     margin-left: 2.74vw;
 }
 
@@ -54,9 +54,9 @@
     color: #ffffff;
     background: #038c8c;
     font-size: 3.36vmax;
-    margin-right: 0.2vw;
+    margin-right: 0.5vw;
     width: 3.9vmax;
-    height: 4.68vmax;
+    padding: 0.7vmax 0.5vmax;
     font-family: 'Lato', sans-serif;
 }
 
@@ -70,6 +70,7 @@
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #616161;
+    outline: none;
 }
 
 .header__link:hover {
@@ -78,11 +79,11 @@
 
 .header__link::after {
     content: "|";
-    margin-left: 0.6vw;
+    margin-left: 0.9vw;
 }
 
-.header__link:last-child {
-    
+.header__link:last-child::after {
+    content: none;
 }
 
 .banner {
