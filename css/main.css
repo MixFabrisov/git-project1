@@ -59,7 +59,8 @@
     padding: 0.7vmax 0.5vmax;
     font-family: 'Lato', sans-serif;
 
-    background: linear-gradient(to bottom,#63A69F 20%,#F2E1AC 20%, #F2E1AC 40%,#F2836B 40%, #F2836B 60%, #F2594B 60%, #F2594B 80%, #CD2C24 80%);
+    background: linear-gradient(to bottom,#42eee3 16.5%,#2ee2d6 16.5%, #2ee2d6 33%,#1fd0c4 33%, #1fd0c4 49.5%, #17c0b5 49.5%, #17c0b5 66%, #0eb0a5 66%, #0eb0a5 82.5%, #0aa096 85.5%);
+
 }
 
 .header__navigation {
