@@ -90,5 +90,6 @@
 }
 
 .banner {
-    background: #038c8c;
+    background: url(../img/banner.jpg) no-repeat center center;
+    background-size: cover;
 }
